@@ -1,5 +1,5 @@
 int firstMissingPositive(int* nums, int numsSize){
-    void swap(int* ay, int* yo) {
+    void swap(int* ay, int* yo) { /*finding the least positive element in an infinite array given*/
     int temp = *ay;
     *ay = *yo;
     *yo = temp;
